@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="30" fecha="01/05/2018">
+	<cliente>
+		<nombre>Wilmer Quijano</nombre>
+		<telefono>3167007084</telefono>
+	</cliente>
+	<articulos>
+		<articulo id="1">
+			<descripcion>caja de lapiz</descripcion>
+			<precio-unitario>450</precio-unitario>
+			<cantidad>30</cantidad>
+			<precio-final>500</precio-final>
+		</articulo>
+		
+		<articulo id="2">
+			<descripcion>bporrador</descripcion>
+			<precio-unitario>450</precio-unitario>
+			<cantidad>15</cantidad>
+			<precio-final>300</precio-final>
+		</articulo>
+		
+		<articulo id="3">
+			<descripcion>sacapunta</descripcion>
+			<precio-unitario>450</precio-unitario>
+			<cantidad>18</cantidad>
+			<precio-final>220</precio-final>
+		</articulo>
+	</articulos>
+	<precio-total>1500</precio-total>
+</factura>
