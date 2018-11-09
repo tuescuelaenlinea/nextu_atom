@@ -26,13 +26,19 @@ table{
   border-collapse: collapse;
 }
 
-table, tr, td{
+table, tr, td, th{
   border: 1px black solid;
   padding: 10px;
 }
 tbody tr:nth-of-type(even){
-  background: #DDD;
+  background: #CCC;
 }
 tbody tr:nth-of-type(odd){
   background: #CCF;
+}
+td>tr:nth-of-type(odd):hover{
+  background:#DDD;
+}
+.sombra{
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.6);
 }
