@@ -1,0 +1,38 @@
+body{
+  margin: 20px;
+  font-family: verdana;
+  }
+nav{
+  padding-top: 10px 0px;
+}
+nav a{
+  color:green;
+  text-decoration: none;
+}
+nav a:hover{
+  text-decoration: underline;
+}
+#menu-principal a + a::before{
+  content:"| ";
+  color:black;
+}
+footer{
+  margin-top: 20px;
+  border-top: solid 1px black;
+  padding-top: 10px;
+  text-align: center;
+}
+table{
+  border-collapse: collapse;
+}
+
+table, tr, td{
+  border: 1px black solid;
+  padding: 10px;
+}
+tbody tr:nth-of-type(even){
+  background: #DDD;
+}
+tbody tr:nth-of-type(odd){
+  background: #CCF;
+}
