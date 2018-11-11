@@ -1,0 +1,36 @@
+body {
+	margin-left: 15%;
+	font-family: Verdana;
+	width: 70%;
+	color: #605B56;
+}
+
+header h1{
+	padding-left: 20px;
+}
+
+#contenido p img{
+	float: right;
+}
+
+#menu-principal ul{
+	float: left;
+	width: 200px;
+}
+#menu-principal ul li{
+	list-style-type: none;
+	padding: 10px;
+}
+#contenido {
+	padding: 30px;
+	background-color: F9F7F3;
+	margin-left: 200px
+}
+
+footer {
+	clear: both;
+	border-top: solid 2px #605B56;
+	padding-top: 10px;
+	margin-top: 15px;
+	text-align: center;
+}
