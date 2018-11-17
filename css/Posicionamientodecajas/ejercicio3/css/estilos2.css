@@ -1,0 +1,29 @@
+
+.contenedor{
+  display: flex;
+  flex-direction: row;
+  }
+  #destacados {
+  	background-color: #669999;
+  }
+
+  #ofertas {
+  	background-color: #F7D988;
+  }
+
+  #disponible {
+  	background-color: #F7A188;
+  }
+
+#contenido{
+  display: flex;
+  flex-direction: column;
+
+}
+#destacados.contenedor>div{
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  background-color: black;
+  width: 50%
+}

@@ -1,0 +1,67 @@
+@font-face{
+	font-family: 'wilmer-google';
+	src:url(PermanentMarker-Regular.ttf);
+}
+@font-face{
+	font-family: 'wilmer-google2';
+	src:url(AllertaStencil-Regular.ttf);
+}
+body {
+	margin: 20px;
+	font-family: 'wilmer-google2';
+text-decoration:
+}
+
+#destacados {
+	background-color: #669999;
+}
+
+#ofertas {
+	background-color: #F7D988;
+}
+
+#disponible {
+	background-color: #F7A188;
+}
+
+#contenido > section > h1 {
+	padding: 10px;
+	text-align: center;
+	font-family: 'wilmer-google';
+}
+
+footer {
+	margin-top: 10px;
+	border-top: solid 1px black;
+	padding-top: 10px;
+	text-align: center;
+}
+#contenido{
+  display: flex;
+  flex-direction: column;
+}
+.contenedor{
+  display: flex;
+  flex-direction: row;
+  }
+#destacados .contenedor >div{
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  width: 50%
+}
+#ofertas .contenedor >div{
+	text-align: center;
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+  width: 33.3%
+}
+#disponible .contenedor >div{
+	text-align: center;
+	padding: 10px;
+	border: solid 5px coral;
+	background-color: white;
+	width: 25%
+}

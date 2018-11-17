@@ -1,0 +1,34 @@
+@font-face {
+font-family: 'fuentelato';
+src:url(../fuentes/Lato-Regular.ttf);
+}
+body{
+	margin: 20px;
+	font-family: lora;
+}
+
+.resaltado{
+	background-color: yellow;
+	color: black;
+}
+
+#menu-principal{
+	padding: 10px 0px;
+	font-family: 'fuentelato';
+	font-style: italic;
+}
+
+footer{
+	border-top: solid 1px black;
+	padding-top: 10px;
+	text-align: center;
+}
+
+h1.titulo{
+	background-color: aliceblue;
+	text-align: center;
+	padding: 10px;
+	font-family: 'fuentelato';
+	font-variant: inherit;
+	
+}

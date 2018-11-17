@@ -1,14 +1,21 @@
-#container img{
+#container {
 width: 80%;
 margin: 0 auto;
 border: 2px dotted black;
 text-align: center;
 }
 
-.cajas1, .cajas2{
+.cajas1{
 display: inline-block;
 width: 30%;
-margin: 10vh o;
 border: 1px solid black;
 background: #5810E8;
+height: 150px;
+}
+.cajas2{
+display: inline-block;
+width: 30%;
+border: 1px solid black;
+background: #5810E8;
+height: 100px;
 }
