@@ -4,18 +4,35 @@ body {
 	width: 70%;
 	color: #605B56;
 }
-
+header{
+	padding: 3px 10px;
+	margin-bottom: 5px;
+	background: linear-gradient(to right, #5CA861 , #BADFBC);
+	background: -webkit-linear-gradient(left, #5CA861 , #BADFBC);
+	background: -o-linear-gradient(right, #5CA861 , #BADFBC);
+	background: -moz-linear-gradient(right, #5CA861 , #BADFBC);
+	border-radius: 10px;
+}
 header h1{
 	padding-left: 20px;
+
+}
+#contenido{
+	background: url(../imagenes/imagen3.jpg);
+	border-radius: 6px;
 }
 
 #contenido p img{
 	float: right;
+	border:solid 2px #605B56;
+	border-radius: 4px;
+	margin: 3px;
 }
 
 #menu-principal ul{
 	float: left;
 	width: 200px;
+	border
 }
 #menu-principal ul li{
 	list-style-type: none;

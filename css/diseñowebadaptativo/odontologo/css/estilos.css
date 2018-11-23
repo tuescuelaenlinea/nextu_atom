@@ -1,0 +1,30 @@
+body{
+  align: center;
+  width: 90%;
+  margin:3vw;
+  font-family: arial;
+  font-size: 3vw;
+}
+header{
+  border-radius: 1vh;
+  padding: 1vh;
+  background: linear-gradient(to left, #00bfff,#0080ff,#004080)
+}
+header h1{
+  margin: 1%;
+  font-size: 1.5em;
+
+}
+footer{
+  text-align: center;
+  border-top: solid 0.3vw #004080;
+  padding:1vw;
+  font-size: 0.8em;
+}
+.Bienvenida{
+  margin: 1%
+}
+ul, li{
+  border:1vw;
+  padding:1vw;
+}
