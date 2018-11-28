@@ -3,6 +3,7 @@ width: 80%;
 height: 100%;
 background: black;
 margin: 1% 10% 0% 10%;
+font-family: 'Dancing Script', cursive;
 }
 header{
   background: #5b7989;
@@ -70,31 +71,56 @@ a[href^="index"]{
   padding: 10px;
   box-sizing: border-box;
   display: flex;
+
 }
 .imgsecun1{
   width: 54%;
   padding:2%;
+
 }
 .imgsecun2{
   width: 46%;
   padding: 2%;
+
 }
 #Imagensecundaria img{
   width: 98%;
   border: solid white 2px;
+  transition: transform 1s;
 }
 .imgsecun1 IMG:hover{
   border: 2px solid black;
   transform: rotate(10deg);
   box-shadow: 2px 2px 4px  #82c3a6;
+
 }
 .imgsecun2 IMG:hover{
   border: 2px solid black;
   transform: translate(20px,-5px);
   box-shadow: 2px 2px 4px #82c3a6;
 }
+.imgsecundaria div p{
+  text-align: center;
+  color: black;
+  text-decoration: underline;
+}
+footer{
+  background: #C6d5c5;
+  display:flex;
+  flex-wrap: wrap;
+  border-radius: 0px 0px 10px 10px;
+}
+.pie{
+  width: 25%;
+  box-sizing: border-box;
+  padding: 2vw;
+}
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 900px){
+  body{
+    width: 90%;
+    margin: 1% 5% 1% 5%;
+  }
   .imgsecundaria{
       display: flex;
     flex-wrap: wrap;
@@ -112,12 +138,43 @@ a[href^="index"]{
     padding-top: 3%;
     padding-bottom: 3%;
   }
-  ul{
+  .pie{
+    width: 100%;
+    padding: 5vw 14vw 5vw 14vw;
+    }
+    header{
+    display: flex;
     flex-wrap: wrap;
+    }
+      header div{
+      width: 100%;
+      height: 20%;
+      text-align: center;
+      padding-left: 10%;;
+      padding-right: 10%;
+      padding-bottom: 0%;
+      padding-top: 0%;
   }
-}
+    header navbar{
+      width: 100%;
+      height: 50%;
+      padding-bottom: 1%
+    }
+    ul{
+      text-align: center;
+      padding: 0%;
+      padding-left: 20%;
+      padding-right: 20%;
+    }
+    li{
+      padding-top: 1vh;
+      padding-bottom: 1vh;
+    }
+  }
 
-@media screen and (min-width:481px) and (max-width:820px){
+
+
+@media screen and (min-width:901px) and (max-width:1200px){
   header{
   display: flex;
   flex-wrap: wrap;
@@ -142,6 +199,8 @@ a[href^="index"]{
   #titulo{
     padding: 0%;
   }
-
-
+  .pie{
+    width: 50%;
+    padding: 5vw 14vw 5vw 14vw;
+    }
 }

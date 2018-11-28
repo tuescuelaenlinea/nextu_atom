@@ -2,8 +2,9 @@
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1.0, width=divice-width user-scalable=no">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -20,18 +21,57 @@
     </header>
     <section class="imagencentral">
       <div id="imgcentral">
-          <img src="imagenes/central.png" alt="">
+        <picture>
+          <source srcset="imagenes/central-responsive.jpg" media="(max-width: 900px)">
+  	        <img src="imagenes/central.png" alt="Fotografia digital" title="Fotografia digital">
+        </picture>
       </div>
     </section>
     <section id="Imagensecundaria">
         <div class="imgsecundaria">
           <div class="imgsecun1">
-            <a href="paisajes.html"> <img src="imagenes/paisajes.jpg" alt=""></a>
+            <a href="paisajes.html">
+            <picture>
+              <source srcset="imagenes/paisajes-responsive.jpg" media="(max-width: 900px)">
+              <img src="imagenes/paisajes.jpg" alt="Fotografia digital" title="Fotografia digital">
+            </picture>
+            <p>Paisajes</p></a>
+
           </div>
           <div class="imgsecun2">
-            <a href="retratos.html"><img src="imagenes/retratos.jpg" alt=""></a>
+            <a href="Retratos.html">
+            <picture>
+              <source srcset="imagenes/retratos-responsive.jpg" media="(max-width: 900px)">
+              <img src="imagenes/retratos.jpg" alt="Retratos" title="Retratos">
+            </picture>
+            <p>Retratos</p></a>
+
+
           </div>
         </div>
     </section>
+    <footer>
+      <div class="pie">
+        <h2>Contacto</h2>
+        <p>Wilmer quijano </p>
+        <p>Wilmerquijano@hotmail.com </p>
+        <p>Cel: 3167007084</p>
+      </div>
+      <div class="pie">
+        <h2>Terminos</h2>
+        <p>Conoce nuestros terminos y condiciones</p>
+      </div>
+      <div class="pie">
+          <h2>Redes Sociales</h2>
+          <h3> Comparte con nosotros</h3>
+          <p><img src="imagenes/facebook.png" alt="Facebook" title="Facebook">@WilmerQuijano</p>
+          <p><img src="imagenes/twiter.png" alt="twiter" title="twiter">@Wilmer.Quijano</p>
+          <p><img src="imagenes/instagram.png" alt="instagram" title="instagram">#WilmerQuijano</p>
+      </div>
+      <div class="pie">
+        <h2>Derechos</h2>
+        <p> ® Copirigth  -  2018</p>
+      </div>
+    </footer>
   </body>
 </html>
