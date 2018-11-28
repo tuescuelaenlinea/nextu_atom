@@ -47,65 +47,8 @@ li{
 a{
 color:white;
 }
-a[href^="index"]{
+a[href^="Paisajes"]{
   text-decoration: none;
-}
-.imagencentral{
-  box-sizing: border-box;
-  width: 100%;
-  background: #82c3a6;
-  padding: 10px;
-}
-#imgcentral img{
-  box-sizing: border-box;
-  width: 90%;
-  border: 1px white solid;
-  margin: 2% 5% 2% 5%;
-  }
-#Imagensecundaria{
-  box-sizing: border-box;
-  width: 100%;
-  background:  #d5c75f;
-}
-.imgsecundaria{
-  padding: 10px;
-  box-sizing: border-box;
-  display: flex;
-
-}
-.imgsecun1{
-  width: 54%;
-  padding:2%;
-
-}
-.imgsecun2{
-  width: 46%;
-  padding: 2%;
-
-}
-#Imagensecundaria img{
-  width: 98%;
-  border: solid white 2px;
-  transition: transform 1s;
-}
-.imgsecun1 IMG:hover{
-  border: 2px solid black;
-  transform: rotate(10deg);
-  box-shadow: 2px 2px 4px  #82c3a6;
-
-}
-.imgsecun2 IMG:hover{
-  border: 2px solid black;
-  transform: translate(20px,-5px);
-  box-shadow: 2px 2px 4px #82c3a6;
-}
-.imgsecundaria div p{
-  text-align: center;
-  color: black;
-  text-decoration: underline;
-}
-picture img{
-  box-shadow: 2px 2px 2px  #02010a;
 }
 footer{
   background: #C6d5c5;
@@ -117,6 +60,28 @@ footer{
   width: 25%;
   box-sizing: border-box;
   padding: 2vw;
+}
+#imagenes{
+  display:flex;
+  flex-wrap: wrap;
+}
+.imagen{
+  width: 33.33%;
+  background: #d5c75f;
+}
+.imagen img{
+  width: 80%;
+  height: 80%;
+  padding: 10%
+}
+#imagen1 img{
+  filter: blur(10px);
+}
+#imagen3 img{
+  filter:sepia(90%);
+}
+#imagenes div:nth-of-type(2n) img{
+  filter:grayscale(100%);
 }
 @-webkit-keyframes entrada{
   0%{margin-top: 150%;}
@@ -145,23 +110,6 @@ header{
   body{
     width: 90%;
     margin: 1% 5% 1% 5%;
-  }
-  .imgsecundaria{
-      display: flex;
-    flex-wrap: wrap;
-  }
-  .imgsecun1{
-    width: 100%;
-  }
-  .imgsecun2{
-    width: 100%;
-  }
-  .imagencentral{
-    box-sizing: border-box;
-    width: 100%;
-    background: #82c3a6;
-    padding-top: 3%;
-    padding-bottom: 3%;
   }
   .pie{
     width: 100%;
@@ -195,10 +143,10 @@ header{
       padding-top: 1vh;
       padding-bottom: 1vh;
     }
+    .imagen{
+      width: 100%;
+      background: #d5c75f;
   }
-
-
-
 @media screen and (min-width:901px) and (max-width:1200px){
   header{
   display: flex;
