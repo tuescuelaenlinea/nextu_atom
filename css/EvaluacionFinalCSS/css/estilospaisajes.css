@@ -9,6 +9,10 @@ header{
   background: #5b7989;
   border-radius: 10px 10px 0px 0px;
   display: flex;
+  display: -webkit-flex;
+  display: -o-flex;
+  display: -moz-flex;
+  display: -ms-flex;
   height: 10%;
 }
 header div{
@@ -30,13 +34,17 @@ navbar{
 }
 ul{
   list-style-type: none;
-      height: 100%;
-      padding: 0px;
-      margin: 0px;
-      display: flex;
-      text-align: right;
-      padding-right: 10%;
-          font-size: 1em;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  display: -webkit-flex;
+  display: -o-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  text-align: right;
+  padding-right: 10%;
+  font-size: 1em;
 }
 li{
   box-sizing: border-box;
@@ -52,9 +60,21 @@ a[href^="Paisajes"]{
 }
 footer{
   background: #C6d5c5;
-  display:flex;
+  display: flex;
+  display: -webkit-flex;
+  display: -o-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+
   flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -o-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
   border-radius: 0px 0px 10px 10px;
+  -webkit-border-radius: 0px 0px 10px 10px;
+  -moz-border-radius:  0px 0px 10px 10px;
+  -o-border-radius:  0px 0px 10px 10px;
 }
 .pie{
   width: 25%;
@@ -62,8 +82,17 @@ footer{
   padding: 2vw;
 }
 #imagenes{
-  display:flex;
+  display: flex;
+  display: -webkit-flex;
+  display: -o-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+
   flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -o-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
 }
 .imagen{
   width: 33.33%;
@@ -72,16 +101,20 @@ footer{
 .imagen img{
   width: 80%;
   height: 80%;
-  padding: 10%
+  margin: 10%;
+  box-shadow: 2px 2px 2px  #02010a;
 }
 #imagen1 img{
   filter: blur(10px);
+  -webkit-filter: blur(10px);
 }
 #imagen3 img{
   filter:sepia(90%);
+  -webkit-filter:sepia(90%);
 }
 #imagenes div:nth-of-type(2n) img{
   filter:grayscale(100%);
+  -webkit-filter:grayscale(100%);
 }
 @-webkit-keyframes entrada{
   0%{margin-top: 150%;}
@@ -105,6 +138,8 @@ footer{
 }
 header{
   animation: entrada 2s;
+  -webkit-animation: entrada 2s;
+  -moz-animation: entrada 2s;
 }
 @media screen and (max-width: 900px){
   body{
@@ -116,8 +151,17 @@ header{
     padding: 5vw 14vw 5vw 14vw;
     }
     header{
-    display: flex;
-    flex-wrap: wrap;
+      display: flex;
+      display: -webkit-flex;
+      display: -o-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+
+      flex-wrap: wrap;
+      -webkit-flex-wrap: wrap;
+      -o-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      -moz-flex-wrap: wrap;
     }
       header div{
       width: 100%;
@@ -149,8 +193,17 @@ header{
   }
 @media screen and (min-width:901px) and (max-width:1200px){
   header{
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    display: -webkit-flex;
+    display: -o-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
   }
     header div{
     width: 100%;

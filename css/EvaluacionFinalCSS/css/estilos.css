@@ -8,7 +8,14 @@ font-family: 'Dancing Script', cursive;
 header{
   background: #5b7989;
   border-radius: 10px 10px 0px 0px;
+  -webkit-border-radius:10px 10px 0px 0px;
+  -moz-border-radius: 10px 10px 0px 0px;
+  -o-border-radius: 10px 10px 0px 0px;
   display: flex;
+  display: -webkit-flex;
+  display: -o-flex;
+  display: -moz-flex;
+  display: -ms-flex;
   height: 10%;
 }
 header div{
@@ -30,13 +37,17 @@ navbar{
 }
 ul{
   list-style-type: none;
-      height: 100%;
-      padding: 0px;
-      margin: 0px;
-      display: flex;
-      text-align: right;
-      padding-right: 10%;
-          font-size: 1em;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  display: -webkit-flex;
+  display: -o-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  text-align: right;
+  padding-right: 10%;
+  font-size: 1em;
 }
 li{
   box-sizing: border-box;
@@ -71,7 +82,10 @@ a[href^="index"]{
   padding: 10px;
   box-sizing: border-box;
   display: flex;
-
+  display: -webkit-flex;
+  display: -o-flex;
+  display: -moz-flex;
+  display: -ms-flex;
 }
 .imgsecun1{
   width: 54%;
@@ -87,16 +101,22 @@ a[href^="index"]{
   width: 98%;
   border: solid white 2px;
   transition: transform 1s;
+  -webkit-transition: transform 1s;
+  -o-transition: transform 1s;
 }
 .imgsecun1 IMG:hover{
   border: 2px solid black;
   transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
   box-shadow: 2px 2px 4px  #82c3a6;
 
 }
 .imgsecun2 IMG:hover{
   border: 2px solid black;
   transform: translate(20px,-5px);
+  -webkit-transform: translate(20px,-5px);
+  -o-transform: translate(20px,-5px);
   box-shadow: 2px 2px 4px #82c3a6;
 }
 .imgsecundaria div p{
@@ -109,9 +129,21 @@ picture img{
 }
 footer{
   background: #C6d5c5;
-  display:flex;
+  display: flex;
+  display: -webkit-flex;
+  display: -o-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+
   flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -o-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
   border-radius: 0px 0px 10px 10px;
+  -webkit-border-radius: 0px 0px 10px 10px;
+  -moz-border-radius:  0px 0px 10px 10px;
+  -o-border-radius:  0px 0px 10px 10px;
 }
 .pie{
   width: 25%;
@@ -140,6 +172,8 @@ footer{
 }
 header{
   animation: entrada 2s;
+  -webkit-animation: entrada 2s;
+  -moz-animation: entrada 2s;
 }
 @media screen and (max-width: 900px){
   body{
@@ -147,8 +181,17 @@ header{
     margin: 1% 5% 1% 5%;
   }
   .imgsecundaria{
-      display: flex;
+    display: flex;
+    display: -webkit-flex;
+    display: -o-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+
     flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
   }
   .imgsecun1{
     width: 100%;
@@ -168,8 +211,17 @@ header{
     padding: 5vw 14vw 5vw 14vw;
     }
     header{
-    display: flex;
-    flex-wrap: wrap;
+      display: flex;
+      display: -webkit-flex;
+      display: -o-flex;
+      display: -moz-flex;
+      display: -ms-flex;
+
+      flex-wrap: wrap;
+      -webkit-flex-wrap: wrap;
+      -o-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      -moz-flex-wrap: wrap;
     }
       header div{
       width: 100%;
@@ -196,13 +248,19 @@ header{
       padding-bottom: 1vh;
     }
   }
-
-
-
 @media screen and (min-width:901px) and (max-width:1200px){
   header{
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    display: -webkit-flex;
+    display: -o-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
   }
     header div{
     width: 100%;
