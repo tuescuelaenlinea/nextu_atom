@@ -1,0 +1,14 @@
+.menu{
+  padding: 0px;
+  font-size: 14px;
+}
+.resultados{
+  padding-left: 15px;
+}
+.title{
+  border-bottom: outset  1px;
+  margin-bottom: 20px;
+}
+img{
+  max-height: 129px;
+}
