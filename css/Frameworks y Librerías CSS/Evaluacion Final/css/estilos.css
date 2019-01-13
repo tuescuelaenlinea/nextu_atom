@@ -1,0 +1,23 @@
+header{
+  background:  #ff9900;
+  padding: 0px !important;
+}
+.navegacion{
+  padding: 20px !important;
+}
+h5{
+  font-family: 'Rock Salt', cursive;
+  color: green;
+  text-shadow: 10px 2px 20px white;
+}
+nav{
+  background: #e68a00;
+  color:white;
+}
+.opcion{
+  padding-top: 10px;
+}
+.texto{
+  font-family: 'Rock Salt', cursive;
+  color: white;
+}
