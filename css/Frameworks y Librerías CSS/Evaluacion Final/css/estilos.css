@@ -1,9 +1,20 @@
+body{
+  background:#602060;
+}
 header{
   background:  #ff9900;
   padding: 0px !important;
 }
 .navegacion{
   padding: 20px !important;
+}
+.m {
+  margin-top: 25px;
+  padding-top: 25px;
+  background: white;
+}
+.bug{
+  border: 0px !important;
 }
 h5{
   font-family: 'Rock Salt', cursive;
@@ -19,5 +30,5 @@ nav{
 }
 .texto{
   font-family: 'Rock Salt', cursive;
-  color: white;
+  color: white  ;
 }
