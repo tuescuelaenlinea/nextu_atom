@@ -1,34 +1,73 @@
 body{
   background:#602060;
 }
+
 header{
   background:  #ff9900;
   padding: 0px !important;
 }
+
 .navegacion{
   padding: 20px !important;
 }
+
 .m {
   margin-top: 25px;
   padding-top: 25px;
   background: white;
+  border-radius: 5px 5px 0px 0px;
 }
-.bug{
-  border: 0px !important;
-}
+
 h5{
   font-family: 'Rock Salt', cursive;
   color: green;
   text-shadow: 10px 2px 20px white;
 }
+
 nav{
   background: #e68a00;
   color:white;
 }
+
 .opcion{
   padding-top: 10px;
 }
+
+.opcion:hover{
+  background: #ff9900;
+}
+
 .texto{
   font-family: 'Rock Salt', cursive;
   color: white  ;
+}
+
+.busqueda{
+  font-size: 12px;
+}
+
+.busqueda:hover{
+  background: #fff5e6;
+}
+
+.cbusqueda{
+  margin-top: 10px;
+}
+
+.comentarios{
+  margin-top: 20px;
+}
+
+.img-social:hover{
+  height: 50px;
+}
+
+.borde{
+  border-radius: 0px 0px 5px 5px;
+}
+
+@media(max-width:500px){
+  .cbusqueda{
+    display:none;
+  }
 }
