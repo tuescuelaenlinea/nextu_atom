@@ -1,0 +1,22 @@
+body{
+  background-image: url(../imagenes/fondo.jpg);
+  background-size: 1380px;
+  background-attachment: fixed;
+
+}
+h4{
+  font-family: 'Marck Script', cursive;
+  text-shadow: 1px 2px 2px black;
+  color: red;
+}
+.principal{
+  margin-top: 15px;
+}
+.red{
+  font-family: 'Marck Script', cursive;
+  text-shadow: 1px 2px 2px black;
+    text-transform: none !important;
+  }
+.imagenes{
+  margin-bottom: 10px;
+}
