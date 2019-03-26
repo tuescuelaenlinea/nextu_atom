@@ -20,3 +20,50 @@ h4{
 .imagenes{
   margin-bottom: 10px;
 }
+.entrada{
+  padding-left: 10px;
+  padding-right:10px;
+  text-align: justify;
+}
+.parrafo{
+  padding-top: 0px;
+}
+.entrada-imagen{
+  padding-top: 40px;
+}
+.input-field input:focus + label {
+     color: red !important;
+   }
+.input-field .prefix.active {
+       color: red !important;
+}
+.input-field input.valid {
+     border-bottom: 1px solid red !important;
+     box-shadow: 0 1px 0 0 red !important;
+}
+.input-field input:focus {
+    border-bottom: 1px solid red !important ;
+    box-shadow: 0 1px 0 0 red !important;
+}
+.comentarios{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.input-field textarea:focus + label {
+     color: red !important;
+   }
+.input-field textarea.valid {
+     border-bottom: 1px solid red !important;
+     box-shadow: 0 1px 0 0 red !important;
+}
+.input-field textarea:focus {
+    border-bottom: 1px solid red !important ;
+    box-shadow: 0 1px 0 0 red !important;
+}
+.btn{
+  background:  red!important;
+  margin-bottom: 10px;
+}
+.autor{
+  margin-bottom: 30px;
+}
