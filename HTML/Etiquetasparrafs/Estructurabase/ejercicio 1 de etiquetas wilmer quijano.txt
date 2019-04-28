@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persona>
+	<nombres>Carlos</nombres>
+	<apellidos>perez</apellidos>
+	<edad>24</edad>
+
+	<Correo-electronico>tuescuelaenlinea@hotmail.com</Correo-electronico>
+</persona>
